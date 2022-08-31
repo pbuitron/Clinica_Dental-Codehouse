@@ -89,7 +89,7 @@ align-items: center;
   height: var(--spacing-small);
 }
 .contenedor__lista {
-  margin-top: 0 var(--spacing-xsmall);
+  /* margin-top: 0 var(--spacing-xsmall); */
   min-width: 210px;
 text-align: center;
   justify-content: center;
