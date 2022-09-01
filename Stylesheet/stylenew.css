@@ -61,25 +61,33 @@ img {
 
 .Encabezado {
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
+  /* flex-wrap: wrap; */
+  ;
+}
+.Encabezado >div{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 1200px;
 }
 
-.Encabezado > picture {
-  min-width: 150px;
+.Encabezado >div > picture {
+  min-width: 160px;
   max-width: 180px;
-  flex: 1;
+  flex:1 ;
   display: flex;
   justify-content: center;
 }
-.Encabezado > nav {
+.Encabezado > div >nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 align-items: center;
-  padding: 0 var(--spacing-large);
-  flex: 3;
+  padding: 0 var(--spacing-small);
+  flex: 2;
 }
 
 .contenedor__encabezado {
@@ -89,16 +97,16 @@ align-items: center;
   height: var(--spacing-small);
 }
 .contenedor__lista {
-  /* margin-top: 0 var(--spacing-xsmall); */
-  min-width: 210px;
+  margin-top: 0 var(--spacing-xsmall);
+  min-width: 150px;
 text-align: center;
-  justify-content: center;
+  justify-content: space-around;
   flex: 1;
 }
 .contenedor__lista > a {
   font-size: var(--text-medium);
-  padding: 0 var(--spacing-medium);
-  justify-content: center;
+ 
+  justify-content: space-around;
   transition: all 800ms ease;
 }
 .contenedor__lista > a:hover {
