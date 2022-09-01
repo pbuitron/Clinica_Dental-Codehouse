@@ -266,9 +266,9 @@ video {
   padding: var(--spacing-small);
 }
 
-.quienessomos {
+/* .quienessomos {
   font-size: var(--text-medium);
-  padding: var(--spacing-medium);
+  padding: var(--spacing-medium); */
 }
 .parrafoUno{
   padding: var(--spacing-medium);
