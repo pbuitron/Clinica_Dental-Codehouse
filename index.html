@@ -4,88 +4,45 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="./Icono/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./Icono/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="./Icono/favicon-16x16.png"
-    />
-    <link rel="manifest" href="/Icono/favicon.ico" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <!-- <link rel="stylesheet" href="./Stylesheet/Stylesheet.css" /> -->
-    <link rel="stylesheet" href="./Stylesheet/stylesheet2.css" />
-    <title>Clinica Dental</title>
+    <title>Clinical Dental</title>
+    <link rel="stylesheet" href="./Stylesheet/stylenew.css" />
   </head>
-  <body class="index">
-    <!-- Inicio de Página de presentación -->
-    <header class="encabezadoPrincipal">
+  <body>
+    <header class="Encabezado">
       <div>
-        <a href="./index.html">
-          <img
-            class="encabezadoPrincipal--Logo"
-            src="./images/logo1.png"
-            alt="odontostudiolima logo"
-          />
-        </a>
+        <picture>
+          <img src="./images/logo1.png" alt="" />
+        </picture>
+        <nav>
+          <ul class="contenedor__encabezado">
+            <li class="contenedor__lista">
+              <a href="./index.html">Principal</a>
+            </li>
+            <li class="contenedor__lista">
+              <a href="./pages/Nosotros.html">Nosotros</a>
+            </li>
+            <li class="contenedor__lista">
+              <a href="./pages/Nuestro-staff.html">Staff</a>
+            </li>
+            <li class="contenedor__lista">
+              <a href="./pages/Tratamientos.html">Tratamientos</a>
+            </li>
+            <li class="contenedor__lista">
+              <a href="./pages/Reservas.html">Reservas</a>
+            </li>
+            <li class="contenedor__lista">
+              <a href="./pages/Contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </nav>
       </div>
-      <nav class="encabezadoPrincipal--nav">
-        <ul class="encabezadoPrincipal--Lista">
-          <li class="encabezadoPrincipal--Items">
-            <a class="encabezadoPrincipal--Links" href="./index.html">
-              Principal
-            </a>
-          </li>
-          <li class="encabezadoPrincipal--Items">
-            <a class="encabezadoPrincipal--Links" href="./pages/Nosotros.html">
-              Nosotros
-            </a>
-          </li>
-          <li class="encabezadoPrincipal--Items">
-            <a
-              class="encabezadoPrincipal--Links"
-              href="./pages/Nuestro-staff.html"
-            >
-              Nuestro Staff
-            </a>
-          </li>
-          <li class="encabezadoPrincipal--Items">
-            <a
-              class="encabezadoPrincipal--Links"
-              href="./pages/Tratamientos.html"
-            >
-              Tratamientos
-            </a>
-          </li>
-          <li class="encabezadoPrincipal--Items">
-            <a class="encabezadoPrincipal--Links" href="./pages/Reservas.html">
-              Reservas
-            </a>
-          </li>
-          <li class="encabezadoPrincipal--Items">
-            <a class="encabezadoPrincipal--Links" href="./pages/Contacto.html">
-              Contáctenos
-            </a>
-          </li>
-        </ul>
-      </nav>
     </header>
     <main>
-      <!-- 1ra Seccion  -->
       <section class="SeccionPrincipal">
         <article class="Contenedor__VideoIntro">
           <video
             class="VideoIntro"
+            description="Video introduccion"
             autoplay
             muted
             loop
@@ -97,9 +54,8 @@
           </video>
 
           <h1 class="Contenedor__VideoIntro--Encabezado-Principal">
-            Bienvenido a Clinica
-            Dental 
-                    </h1>
+            Bienvenido a City Dental
+          </h1>
           <p>Creando sonrisas desde el 2010</p>
           <div class="botonera">
             <div class="botonera--botones">
@@ -116,8 +72,8 @@
           </div>
         </article>
       </section>
-      <!-- 2da Seccion  -->
-      <section class="segundaSeccion">
+      <!-- Contenedor Grid -->
+      <section class="Contenedor_Grid">
         <h2>Clinica Dental</h2>
         <div class="segundaSeccion--Flex">
           <div class="segundaSeccion--Flex__segundoArticulo">
@@ -129,10 +85,9 @@
               />
             </div>
             <div class="segundaSeccion--Flex__segundoArticulo--datos">
-              <p class="segundoArticulo__nombre">Dr. Bernardo</p>
+              <p class="segundoArticulo__nombre">State of the art dentistry</p>
               <p class="segundoArticulo__especialidad">
-                La xxxxxxxxxxxxxxxx xxxxxxxxxx xxxxxxsolución perfecta para una
-                sonrisa hermosa
+                We aim to provide the highest level of dental care
               </p>
             </div>
           </div>
@@ -145,8 +100,10 @@
               />
             </div>
             <div class="segundaSeccion--Flex__segundoArticulo--datos">
-              <p class="segundoArticulo__nombre">Dr. Bernardo</p>
-              <p class="segundoArticulo__especialidad">Maxilofacial</p>
+              <p class="segundoArticulo__nombre">Dental Implants</p>
+              <p class="segundoArticulo__especialidad">
+                The perfect solution for replacing missing teeth
+              </p>
             </div>
           </div>
           <div class="segundaSeccion--Flex__segundoArticulo">
@@ -158,8 +115,10 @@
               />
             </div>
             <div class="segundaSeccion--Flex__segundoArticulo--datos">
-              <p class="segundoArticulo__nombre">Dr. Bernardo</p>
-              <p class="segundoArticulo__especialidad">Maxilofacial</p>
+              <p class="segundoArticulo__nombre">Invisalign Gold Providers</p>
+              <p class="segundoArticulo__especialidad">
+                Teeth straightening using clear, almost invisible braces
+              </p>
             </div>
           </div>
 
@@ -172,28 +131,15 @@
               />
             </div>
             <div class="segundaSeccion--Flex__segundoArticulo--datos">
-              <p class="segundoArticulo__nombre">Dr. Bernardo</p>
-              <p class="segundoArticulo__especialidad">Maxilofacial</p>
-            </div>
-          </div>
-          <div class="segundaSeccion--Flex__segundoArticulo">
-            <div class="segundaSeccion--Flex--datos">
-              <img
-                src="./images/Detalles.png"
-                alt="Icono de Cepillo"
-                title="Icono de Cepillo"
-              />
-            </div>
-            <div class="segundaSeccion--Flex__segundoArticulo--datos">
-              <p class="segundoArticulo__nombre">Dr. Bernardo</p>
-              <p class="segundoArticulo__especialidad">Maxilofacial</p>
+              <p class="segundoArticulo__nombre">Flexible Finance Options</p>
+              <p class="segundoArticulo__especialidad">
+                To ensure that everyone can maintain great dental health
+              </p>
             </div>
           </div>
         </div>
       </section>
-      <!--3ra Sección  -->
       <section class="terceraSeccion">
-        <!-- <div class="terceraSeccion__Flex"> -->
         <div class="terceraSeccion__Flex--Izquierda">
           <picture>
             <img src="./images/Quienes-somos.jpg" />
@@ -203,7 +149,7 @@
             ODONTOLOGÍA DE ALTA CALIDAD. VISITE NUESTRAS SEDES
           </p>
         </div>
-        <div>
+        <div class="terceraSeccion__Flex--derecha">
           <h2 class="quienessomos">Quienes Somos</h2>
           <p class="parrafoUno">
             En Clinica Dental nuestro objetivo es proporcionar la odontología
@@ -220,19 +166,23 @@
             tranquilo y relajado durante su visita.
           </p>
         </div>
-        <!-- </div> -->
       </section>
     </main>
     <footer>
-      <img src="./images/logo1.png" alt="Logo de pie de página" />
-      <nav class="footer--nav">
-        <ul>
-          <li>Clinica Dental</li>
-          <li>WhatsApp</li>
-          <li>E-mail</li>
-          <li>Teléfono</li>
+      <div class="pie">
+        <picture class="logopie">
+          <img src="./images/logo1.png" alt="" />
+        </picture>
+        <ul class="lista_piedepagina">
+          
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Codepen</a></li>
+          <li><a href="#">Email</a></li>
+          <li><a href="#">Dribbble</a></li>
+          <li><a href="#">Github</a></li>
+          <li></li>
         </ul>
-      </nav>
+      </div>
     </footer>
   </body>
 </html>
