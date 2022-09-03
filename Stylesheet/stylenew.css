@@ -33,7 +33,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid black;
+  
 }
 
 html {
@@ -440,6 +440,7 @@ Aqui empieza el desarrollo */
   background-image: url(../images/Contactanos.jpg);
   background-position: center;
   background-size: cover;
+  min-width: 40rem;
   
 }
 /* Contenedor derecho */
@@ -448,21 +449,22 @@ Aqui empieza el desarrollo */
   padding-top: 5rem;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 
 }
 .contenedor_de_datos_contacto,
 .Articulo_contacto1{
   display: flex;
-  max-width: 50rem;
+  max-width: 40rem;
 }
 
 
 .contenedor_de_datos_contacto {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   justify-content: space-between;
   flex-wrap: wrap;
+  
   
 }
 
@@ -471,6 +473,7 @@ Aqui empieza el desarrollo */
   flex-direction: column;
   align-items: center;
   flex: 1;
+  padding: 0 2rem;
 }
 .Articulo_contacto2>div{
 display: flex;
@@ -496,12 +499,19 @@ font-weight: 300;
 
 .Articulo_contacto3{
 flex: 1;
-padding: 5rem 0;
+padding: 3rem 2rem;
 color: var(--secondary);
+width: 37.5rem;
 }
 
-.Articulo_contacto3>h2{
-
+.Articulo_contacto3>h2,
+.Articulo_contacto3>h3{
+line-height: 5rem ;
 font-size: var(--text-medium);
 
+}
+.Articulo_contacto3>p{
+  font-size: var(--text-small);
+  max-width: 37.5rem;
+  text-align: justify;
 }
