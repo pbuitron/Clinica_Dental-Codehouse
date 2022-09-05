@@ -23,69 +23,85 @@
     />
     <link rel="manifest" href="../Icono/favicon.ico" />
     <title>Clinica Dental - Nosotros</title>
+    <link rel="stylesheet" href="../Stylesheet/stylenew.css" />
   </head>
   <body>
     <!-- Inicio de Página de presentación -->
-    <header>
-      <a href="../index.html">
-        <img
-          src="../images/odontostudiolima-logo.png"
-          alt="odontostudiolima logo"
-        />
-      </a>
-      <nav>
-        <ul>
-          <li>
-            <a href="../index.html"> Principal </a>
-          </li>
-          <li>
-            <a href="../pages/Nosotros.html"> Nosotros </a>
-          </li>
-          <li>
-            <a href="../pages/Nuestro-staff.html"> Nuestro Staff </a>
-          </li>
-          <li>
-            <a href="../pages/Tratamientos.html"> tratamientos </a>
-          </li>
-          <li>
-            <a href="../pages/Reservas.html"> Reservas </a>
-          </li>
-          <li>
-            <a href="../pages/Contacto.html"> Contáctenos </a>
-          </li>
-        </ul>
-      </nav>
+    <header class="Encabezado">
+      <div>
+        <picture>
+          <a href="../index.html"><img src="../images/logo1.png" alt="" /> </a
+        ></picture>
+        <nav>
+          <ul class="contenedor__encabezado">
+            <li class="contenedor__lista">
+              <a href="../index.html">Principal</a>
+            </li>
+            <li class="contenedor__lista">
+              <a href="../pages/Nosotros.html">Nosotros</a>
+            </li>
+            <li class="contenedor__lista">
+              <a href="../pages/Nuestro-staff.html">Staff</a>
+            </li>
+            <li class="contenedor__lista">
+              <a href="../pages/Tratamientos.html">Tratamientos</a>
+            </li>
+            <li class="contenedor__lista">
+              <a href="../pages/Reservas.html">Reservas</a>
+            </li>
+            <li class="contenedor__lista">
+              <a href="../pages/Contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
-    <main>
+    <main class="main-nosotros-contenedor">
       <!-- 1ra Seccion  -->
-      <section>
-        <article>
-          <h1>
-            Clinica
-            <span> Dental </span>
-          </h1>
-          <div>
-            <p>Creando Sonrisas desde el <span>2010</span></p>
-          </div>
-
-          <!-- Imagen responsive con Picture y Source -->
+      <section class="seccion-nosotros seccion-nosotros1">
+        <article class="article_nosotros_seccionuno">
           <picture>
-            <source
+            <!-- <source
               srcset="../images/Nosotros.jpg"
               media="screen and (max-width:360px)"
-            />
+            /> -->
             <img src="../images/Nuestros1.jpg" alt="Presentacion de medicos" />
           </picture>
-          <div>
-            <a href="../pages/Reservas.html"> Reservas </a>
-          </div>
-          <div>
-            <a href="../pages/Contacto.html"> Contacto </a>
+          <div class="Contenedor_frases_1raseccion">
+            <h1>
+              Clinica Dental
+               
+            </h1>
+            <div>
+              <p>Creando Sonrisas desde el <span>2010</span></p>
+            </div>
+
+            <!-- Imagen responsive con Picture y Source -->
+
+            <div class="botonera">
+              <div class="botonera--botones">
+                <a
+                  class="botonera--botones--boton"
+                  href="./pages/Reservas.html"
+                >
+                  Reservas
+                </a>
+              </div>
+              <div class="botonera--botones">
+                <a
+                  class="botonera--botones--boton"
+                  href="./pages/Contacto.html"
+                >
+                  Contacto
+                </a>
+              </div>
+              <div></div>
+            </div>
           </div>
         </article>
       </section>
       <!-- 2da Seccion  -->
-      <section>
+      <section class="seccion-nosotros seccion-nosotros2">
         <article>
           <h2>Las Mejores Técnicas y Herramientas</h2>
           <p>
@@ -115,7 +131,7 @@
         </article>
       </section>
       <!--3ra Sección  -->
-      <section>
+      <section class="seccion-nosotros seccion-nosotros3">
         <article>
           <picture>
             <source
@@ -136,7 +152,7 @@
         </article>
       </section>
       <!-- 4ta Seccion -->
-      <section>
+      <section class="seccion-nosotros seccion-nosotros4">
         <article>
           <h2>Pensamos siempre en tu comodidad</h2>
           <p>
@@ -158,18 +174,19 @@
       </section>
     </main>
     <footer>
-      <img
-        src="../images/odontostudiolima-logo.png"
-        alt="Logo de pie de página"
-      />
-      <nav>
-        <ul>
-          <li>Clinica Dental</li>
-          <li>WhatsApp</li>
-          <li>E-mail</li>
-          <li>Teléfono</li>
+      <div class="pie">
+        <picture class="logopie">
+          <img src="../images/logo1.png" alt="" />
+        </picture>
+        <ul class="lista_piedepagina">
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Codepen</a></li>
+          <li><a href="#">Email</a></li>
+          <li><a href="#">Dribbble</a></li>
+          <li><a href="#">Github</a></li>
+          <li></li>
         </ul>
-      </nav>
+      </div>
     </footer>
   </body>
 </html>
