@@ -233,7 +233,11 @@ img {
   right: -5px;
   bottom: -5px;
   z-index: -1;
+<<<<<<< HEAD
   background: linear-gradient(90deg, #03a9f4, #194d95, #dd3a42, #03a9f4);
+=======
+  background: linear-gradient(90deg, #03a9f4, #194d95, #4deb0f, #03a9f4);
+>>>>>>> version3
   background-size: 400%;
   border-radius: 35px;
   transition: 1s;
@@ -244,7 +248,11 @@ img {
 }
 
 .botonera--botones:active {
+<<<<<<< HEAD
   background: linear-gradient(32deg, #03a9f4, #194d95, #dd3a42, #03a9f4);
+=======
+  background: linear-gradient(32deg, #03a9f4, #194d95, #4deb0f, #03a9f4);
+>>>>>>> version3
 }
 .botonera--botones--boton {
   font-size: var(--text-small);
