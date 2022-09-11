@@ -117,7 +117,7 @@ img {
 	background-position: center;
 	background-size: 100%;
 }
-.contenedor__encabezado {
+/* .contenedor__encabezado {
   display: flex;
   flex-wrap: wrap;
   padding: 0 var(--spacing-small);
@@ -141,7 +141,11 @@ transform: scale(1.1);
 background-color: #fff;
 
   
-}
+} */
+
+
+
+
 
 main{
 margin-top: 6rem;
@@ -155,26 +159,31 @@ footer{
 
 .SeccionPrincipal {
   display: flex;
-  height: auto;
+  height: 100vh;
   justify-content: center;
 }
 .Contenedor__VideoIntro--Encabezado-Principal {
   font-size: var(--text-large);
   position: absolute;
+  
 }
 .Contenedor__VideoIntro {
-  height: 90vh;
-  top: -10px;
   display: flex;
   flex-wrap: wrap;
+  max-height:max-content;
+  max-width: max-content;
+  top: -10px;
   justify-content: center;
   overflow: hidden;
   position: relative;
+
+  
 }
 .VideoIntro {
   height: 100%;
   filter: grayscale();
-  margin-top: 1rem;
+  
+  object-fit:fill;
 }
 /* 
 /* Titulo y parrafo de la primera sección */
@@ -188,12 +197,12 @@ footer{
   font-size: var(--text-large);
   color: var(--secondary);
   text-shadow: 2px 1px 9px rgba(0, 0, 0, 0.99);
-  bottom: 70%;
+  bottom: 60%;
 }
 .Contenedor__VideoIntro > p,
 .Contenedor_frases_1raseccion > div > p,
 .article-staff-seccion1 > div > p {
-  bottom: 50%;
+  bottom: 40%;
   font-size: var(--text-extra-medium);
   color: white;
   font-weight: 600;
@@ -209,8 +218,8 @@ footer{
   justify-content: center;
   align-items: center;
   font-size: var(--text-small);
-  bottom: 30%;
-  height: 100px;
+  bottom: 20%;
+  height: 10rem;
  
 }
 
@@ -223,18 +232,18 @@ footer{
 
   text-decoration: none;
   position: relative;
-  margin: 0 var(--spacing-medium);
+  margin: 2rem  var(--spacing-medium);
   border: none;
   font-size: var(--text-xsmall);
   font-family: inherit;
   color: #fff;
-  width: 11em;
-  height: 2em;
+  width: 15em;
+  height: 4em;
   line-height: 2em;
   text-align: center;
   background: linear-gradient(90deg, #03a9f4, #194d95, #dd3a42, #03a9f4);
   background-size: 300%;
-  border-radius: 30px;
+  border-radius: 1.5rem;
   z-index: 1;
 }
 
