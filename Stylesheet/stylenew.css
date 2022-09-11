@@ -80,23 +80,26 @@ img {
   width: 1200px;
 }
 .container-fluid{
-  height: 10rem;
+  height: 7rem;
 }
 
 .navbar{
   z-index: 10;
 }
-
+.navbar-nav{
+  padding: 0rem;
+  margin: 0rem;
+}
 .logo {
-  min-width: 10rem;
-  max-width: 12rem;
+  min-width: 6em;
+  max-width: 8rem;
   /* flex: 1;
   display: flex;
   justify-content: center; */
   padding: var(--spacing-xsmall) 0;
 }
 .logo img{
-  width: 18rem;
+  /* width: 18rem; */
 }
 
 /* .Encabezado > div > nav {
@@ -143,18 +146,22 @@ background-color: #fff;
   
 } */
 
+.card{
+  background-color: transparent !important;
 
+}
+.card-img-top{
+margin: auto;
+display: block;
+min-width: none;
+max-width: 20rem;
 
-
-
-main{
-margin-top: 6rem;
-height: 100vh;
 }
 
-footer{
-  margin-top: 5rem;
-}
+
+
+
+
 /* Fin de Encabezado */
 
 .SeccionPrincipal {
@@ -299,7 +306,7 @@ footer{
 /* Segunda Sección - Seccion Grid */
 .Contenedor_Grid {
   width: 100%;
-  height: 100%;
+ 
   padding-bottom: 6rem 0;
 }
 .Contenedor_Grid > h2 {
@@ -380,7 +387,7 @@ footer{
 .terceraSeccion__Flex--derecha {
   display: flex;
   flex-direction: column;
-  padding: 3rem 4rem;
+  padding: 3rem 2rem;
 }
 
 /* Parrafo de la seccion izquierda */
@@ -401,12 +408,12 @@ footer{
   font-size: 1.5rem;
   line-height: 2.5rem;
   text-align: justify;
-  padding: 3rem;
+  padding: 0rem;
   color: var(--primary);
 }
 
 /* PIE DE PÁGINA */
-.pie {
+/* .pie {
   display: flex;
   height: 12rem;
   width: 100%;
@@ -471,7 +478,7 @@ a:hover {
 
 .lista_piedepagina > li:hover ~ li p {
   animation: wave-animation 0.3s infinite;
-}
+} */
 
 /* Pagina de contacto
 Aqui empieza el desarrollo */
@@ -814,3 +821,7 @@ max-width: 60rem;
   flex-wrap: wrap;
   width: 10rem;
 }
+/* Color de Pie de Página */
+ .bg{
+  background-color: var(--primary);
+ }
