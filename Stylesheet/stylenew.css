@@ -803,7 +803,7 @@ text-align: center;
   font-weight: 600;
  
 }
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 576px){
   .seccion_tratamientos{
     display: flex;
     flex-direction: column;
@@ -819,7 +819,7 @@ text-align: center;
      }
    .seccion_tratamientos > article:nth-child(1) {
     overflow: hidden;
-  width: 37.5rem;
+ max-width: 375px;
     
   }
    .seccion_tratamientos > article > video {
@@ -829,7 +829,7 @@ text-align: center;
      }
    .seccion_tratamientos > article:nth-child(1) {
     overflow: hidden;
-  width: 37.5rem;
+  width: 575px;
     
   }
   .contenedorgrid-tratamientos > ul {
