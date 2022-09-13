@@ -686,7 +686,7 @@ SECCION GRID */
 }
 
 .article-staff-seccion1 > picture > img {
-  max-width: fill-content;
+  max-width: fit-content;
   height: 81rem;
   object-fit: cover;
   object-position: initial;
@@ -813,7 +813,7 @@ text-align: center;
    }
 
    .seccion_tratamientos > article {
-    max-width: 375px;
+    max-width: 350px;
     object-fit: cover;
     filter: grayscale();
      }
@@ -829,7 +829,7 @@ text-align: center;
      }
    .seccion_tratamientos > article:nth-child(1) {
     overflow: hidden;
-  width: 575px;
+  width:375px;
     
   }
   .contenedorgrid-tratamientos > ul {
