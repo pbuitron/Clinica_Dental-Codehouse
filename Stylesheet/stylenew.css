@@ -460,12 +460,12 @@ a:hover {
 Aqui empieza el desarrollo */
 
 /* Contenedor Principal de Contacto */
-.main_contacto {
+/* .main_contacto {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
-
+height: 100vh;
   width: 100%;
 }
 
@@ -475,8 +475,8 @@ Aqui empieza el desarrollo */
   overflow: hidden;
   background-image: url(../images/Contactanos.jpg);
   background-position: center;
-  background-size: cover;
-  min-width: 40rem;
+  background-size: fill-content;
+  object-fit: cover;
 }
 /* Contenedor derecho */
 .contenedor_contacto {
@@ -543,7 +543,7 @@ Aqui empieza el desarrollo */
   font-size: var(--text-small);
   max-width: 37.5rem;
   text-align: justify;
-}
+}  
 
 /* PAGINA NOSOTROS
 SECCION GRID */
@@ -901,8 +901,28 @@ padding-top: 6rem;
 background-color: var(--secondary);
 width: 30%;
 align-self: center;
-
+color: #21334d;
   }
 input{
   height: 3rem;
+}
+
+
+
+.map-container{
+  overflow:hidden;
+  padding-bottom:36.25%;
+  position:relative;
+  height:0;
+}
+.map-container iframe{
+  left:0;
+  top:0;
+  height:80%;
+  width:100%;
+  position:absolute;
+}
+
+.form-group{
+  padding: 1rem 0;
 }
