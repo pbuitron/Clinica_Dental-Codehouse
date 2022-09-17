@@ -1,0 +1,37 @@
+/* Encabezado Responsive */
+.navbar {
+    z-index: 10;
+
+    .container-fluid {
+        height: 7rem;
+
+        a {
+            .logo {
+                min-width: 6em;
+                max-width: 8rem;
+                padding: var(--spacing-xsmall) 0;
+            }
+
+        }
+
+        .navbar-toggler {
+            .navbar-toggler-icon {
+                display: inline-block;
+                width: 3em;
+                height: 3em;
+                vertical-align: middle;
+                background-image: var(--bs-navbar-toggler-icon-bg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: 100%;
+            }
+        }
+
+        .navbar-collapse {
+            .navbar-nav {
+                padding: 0rem;
+                margin: 0rem;
+            }
+        }
+    }
+}
