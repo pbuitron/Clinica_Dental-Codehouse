@@ -1,5 +1,5 @@
 # Clinica_Dental-Codehouse
-#Entrega de Desafio - Sass y Seo
+_Entrega de Desafio - Sass y Seo_
 Se aplicó:
 Maps a las variables del root
 Extends a cards de la página tratamientos
