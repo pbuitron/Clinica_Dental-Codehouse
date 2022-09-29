@@ -1,6 +1,6 @@
 # Clinica_Dental-Codehouse
 
-##Entrega de Desafio - Sass y Seo.
+## Entrega de Desafio - Sass y Seo.
 _Se aplicó_
 
 * Maps a las variables del root.
