@@ -1,0 +1,14 @@
+%lista-de-tratamientos{
+    border: 1px solid map-get($Colores-Principales, secondary);
+    width: 18rem;
+    border-radius: 5rem;
+    background-color: map-get($Colores-Principales, secondary);
+    color: map-get($Colores-Principales, primary);
+    text-align: center;
+    font-size: var(--text-small);
+    font-weight: 600;
+}
+// Botones de Tratamientos disponibles //
+.contenedorgrid-tratamientos > ul >li{
+    @extend %lista-de-tratamientos;
+}

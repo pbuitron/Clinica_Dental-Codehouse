@@ -1,9 +1,10 @@
 /* PAGINA TRATAMIENTOS */
 .maintratamiento > h1 {
-    display:flex;
+      // display:flex;
+  //   justify-content: center;
+  @include flex(flex,);
     font-size: var(--text-large);
-    justify-content: center;
-  text-align: center;
+    text-align: center;
     margin-top: 10rem;
     margin-bottom: 3rem;
   
@@ -52,17 +53,9 @@
    
   }
   
-  .contenedorgrid-tratamientos > ul >li{
-    border: 1px solid var(--secondary);
-    width: 18rem;
-    border-radius: 5rem;
-    background-color: var(--secondary);
-    color: var(--primary);
-    text-align: center;
-    font-size: var(--text-small);
-    font-weight: 600;
+  
    
-  }
+  
   @media only screen and (max-width: 576px){
     .seccion_tratamientos{
       display: flex;

@@ -1,4 +1,5 @@
 /* Color de Pie de Página */
 .bg {
-    background-color: var(--primary);
+    background-color: map-get($Colores-Principales, primary);
   }
+  

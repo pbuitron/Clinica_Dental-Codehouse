@@ -20,7 +20,7 @@
 }
 
 .btn {
-  background-color: var(--secondary);
+  background-color: map-get($Colores-Principales, secondary);
   width: 30%;
   align-self: center;
   color: #21334d;

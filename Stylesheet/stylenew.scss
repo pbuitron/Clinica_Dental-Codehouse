@@ -1,6 +1,9 @@
+@import "./partials/maps-extend-mixin.scss/maps";
 @import "./partials/root";
 @import "./partials/estilos_globales.scss";
 @import "./partials/encabezado";
+@import"./partials/maps-extend-mixin.scss/extends";
+@import "./partials/maps-extend-mixin.scss/mixin";
 @import "./partials/pie_de_pagina";
 @import "./partials/pagina_1/seccion_video";
 @import "./partials/pagina_1/segunda_seccion";

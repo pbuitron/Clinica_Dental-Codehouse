@@ -53,7 +53,7 @@
             position: absolute;
             text-align: center;
             font-size: var(--text-large);
-            color: var(--secondary);
+            color: map-get($Colores-Principales, secondary);
             text-shadow: 2px 1px 9px rgba(0, 0, 0, 0.99);
             bottom: 60%;
         }

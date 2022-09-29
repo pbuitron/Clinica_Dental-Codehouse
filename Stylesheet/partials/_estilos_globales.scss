@@ -6,8 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* border: 1px solid white; */
-  color: var(--secondary);
+  color: map-get($Colores-Principales, secondary);
 }
 
 html {
@@ -28,7 +27,7 @@ ul {
 a {
   text-decoration: none;
   font-family: var(--font-title);
-  color: var(--secondary);
+  color: map-get($Colores-Principales,secondary);
   text-align: right;
 }
 li {

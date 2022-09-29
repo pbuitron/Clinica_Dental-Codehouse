@@ -1,13 +1,11 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 /* Colores Principales */
 /* Spacings */
 /* Font-family */
 /* Font-Sizes */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 :root {
   /* Colores Principales */
-  --primary:#21334d;
-  --secondary:#ffffff;
   --alternative:#302f4d;
   --text-color:#2b2b2b;
   /* Spacings */
@@ -33,8 +31,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* border: 1px solid white; */
-  color: var(--secondary);
+  color: #ffffff;
 }
 
 html {
@@ -54,7 +51,7 @@ ul {
 a {
   text-decoration: none;
   font-family: var(--font-title);
-  color: var(--secondary);
+  color: #ffffff;
   text-align: right;
 }
 
@@ -94,9 +91,20 @@ img {
   margin: 0rem;
 }
 
+.contenedorgrid-tratamientos > ul > li {
+  border: 1px solid #ffffff;
+  width: 18rem;
+  border-radius: 5rem;
+  background-color: #ffffff;
+  color: #21334d;
+  text-align: center;
+  font-size: var(--text-small);
+  font-weight: 600;
+}
+
 /* Color de Pie de Página */
 .bg {
-  background-color: var(--primary);
+  background-color: #21334d;
 }
 
 .card {
@@ -151,7 +159,7 @@ img {
   position: absolute;
   text-align: center;
   font-size: var(--text-large);
-  color: var(--secondary);
+  color: #ffffff;
   text-shadow: 2px 1px 9px rgba(0, 0, 0, 0.99);
   bottom: 60%;
 }
@@ -274,7 +282,7 @@ img {
   padding: 3rem 0;
   font-size: var(--text-large);
   font-family: var(--font-title);
-  color: var(--secondary);
+  color: #ffffff;
 }
 
 /* Este es el contenedor Grid secundario */
@@ -330,7 +338,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   padding-top: 3rem;
-  background-color: var(--secondary);
+  background-color: #ffffff;
   justify-content: center;
   align-items: center;
 }
@@ -341,7 +349,7 @@ img {
   flex: 1;
   display: flex;
   flex-direction: column;
-  background-color: var(--secondary);
+  background-color: #ffffff;
 }
 
 .terceraSeccion__Flex--derecha {
@@ -361,7 +369,7 @@ img {
   font-size: var(--text-medium);
   text-align: center;
   line-height: 5rem;
-  color: var(--primary);
+  color: #21334d;
 }
 
 /* parrafos de la seccion derecha */
@@ -371,7 +379,7 @@ img {
   line-height: 2.5rem;
   text-align: justify;
   padding: 0rem;
-  color: var(--primary);
+  color: #21334d;
 }
 
 /* PAGINA NOSOTROS
@@ -482,13 +490,6 @@ SECCION GRID */
      object-position: initial;
 }
 
-/* .seccion2-staff{
-    display: flex;
-    flex-wrap:wrap;
-    flex-direction: column;
-    justify-content: center;
-
-  } */
 .seccion2-staff > h2 {
   font-size: var(--text-extra-medium);
   min-width: 38.9rem;
@@ -534,8 +535,8 @@ SECCION GRID */
 /* PAGINA TRATAMIENTOS */
 .maintratamiento > h1 {
   display: flex;
-  font-size: var(--text-large);
   justify-content: center;
+  font-size: var(--text-large);
   text-align: center;
   margin-top: 10rem;
   margin-bottom: 3rem;
@@ -579,17 +580,6 @@ SECCION GRID */
   grid-auto-rows: auto;
   gap: 1rem 1rem;
   margin: 0 10rem;
-}
-
-.contenedorgrid-tratamientos > ul > li {
-  border: 1px solid var(--secondary);
-  width: 18rem;
-  border-radius: 5rem;
-  background-color: var(--secondary);
-  color: var(--primary);
-  text-align: center;
-  font-size: var(--text-small);
-  font-weight: 600;
 }
 
 @media only screen and (max-width: 576px) {
@@ -669,7 +659,7 @@ SECCION GRID */
 }
 
 .btn {
-  background-color: var(--secondary);
+  background-color: #ffffff;
   width: 30%;
   align-self: center;
   color: #21334d;
