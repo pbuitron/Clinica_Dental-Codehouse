@@ -7,6 +7,9 @@
 * Se agregó ```
 @Mixin
 ``` , ```@extend```
-```map-get``` 
+```map-get``` en las paginas staff y en Index.
 
-en las paginas staff y en Index
+
+
+* [Bootstrap ](http://https://getbootstrap.com/docs/5.0/forms/layout/) - El framework web usado.
+* No se aplica ```Merge``` hasta confirmar la aprobación del proyecto.
