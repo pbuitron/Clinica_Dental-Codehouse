@@ -6,9 +6,7 @@
 
 * Se agregó ```
 @Mixin
-``` , ```
-@extend
-```
+``` , ```@extend```
 ```
 map-get
 ```
