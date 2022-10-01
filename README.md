@@ -4,10 +4,10 @@
 
 * Se trasladó todos los elementos de CSS a Sass 🚀 
 
-* Se agregó ```
+* Se agregó ```css
 @Mixin
-``` , ```@extend```
-```map-get``` en las paginas staff y en Index.
+``` , ```css @extend```
+```css map-get``` en las paginas staff y en Index.
 
 
 
