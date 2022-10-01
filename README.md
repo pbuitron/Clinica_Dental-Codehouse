@@ -11,5 +11,6 @@
 
 
 
-* [Bootstrap ](http://https://getbootstrap.com/docs/5.0/forms/layout/) - El framework web usado.
+* [Bootstrap ](http://https://getbootstrap.com/docs/5.0/forms/layout/) - El framework web usado, asimismo se aplicó Grid para hacerlo responsivo.
 * No se aplica ```Merge``` hasta confirmar la aprobación del proyecto.
+* Sass se compiló mediante extensión, por lo tanto no es necesario 
