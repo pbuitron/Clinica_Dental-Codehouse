@@ -7,7 +7,6 @@
 * Se agregó ```
 @Mixin
 ``` , ```@extend```
-```
-map-get
-```
+```map-get``` 
+
 en las paginas staff y en Index
