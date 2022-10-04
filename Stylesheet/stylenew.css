@@ -288,8 +288,8 @@ img {
 /* Este es el contenedor Grid secundario */
 .segundaSeccion--Flex {
   display: grid;
-  padding-bottom: var(--spacing-large);
   justify-content: center;
+  padding-bottom: var(--spacing-large);
   gap: var(--spacing-large);
   row-gap: 15rem;
   grid-auto-rows: 35rem;
@@ -307,8 +307,8 @@ img {
 .segundaSeccion--Flex__segundoArticulo--datos {
   flex: 9;
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  flex-direction: column;
 }
 
 .segundoArticulo__nombre,
@@ -336,11 +336,11 @@ img {
 /* Seccion Principal */
 .terceraSeccion {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   padding-top: 3rem;
   background-color: #ffffff;
-  justify-content: center;
-  align-items: center;
 }
 
 .terceraSeccion__Flex--Izquierda,
@@ -488,6 +488,7 @@ SECCION GRID */
      object-fit: cover;
   -o-object-position: initial;
      object-position: initial;
+  filter: grayscale(1);
 }
 
 .seccion2-staff > h2 {

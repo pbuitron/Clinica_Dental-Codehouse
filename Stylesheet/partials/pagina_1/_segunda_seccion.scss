@@ -13,9 +13,10 @@
   }
   /* Este es el contenedor Grid secundario */
   .segundaSeccion--Flex {
-    display: grid;
+    // display: grid;
+    // justify-content: center;
+    @include flex (grid, center);
     padding-bottom: var(--spacing-large);
-    justify-content: center;
     gap: var(--spacing-large);
     row-gap: 15rem;
     grid-auto-rows: 35rem;
@@ -31,9 +32,9 @@
   }
   .segundaSeccion--Flex__segundoArticulo--datos {
     flex: 9;
-    display: flex;
+    @include flex (flex, center);
     flex-direction: column;
-    justify-content: center;
+    
   }
   
   .segundoArticulo__nombre,
@@ -60,12 +61,13 @@
   /* Tercera Seccion */
   /* Seccion Principal */
   .terceraSeccion {
-    display: flex;
+    @include flex (flex, center);
+    align-items: center;
     flex-wrap: wrap;
     padding-top: 3rem;
     background-color: map-get($Colores-Principales, secondary);
-    justify-content: center;
-    align-items: center;
+   
+    
   }
   
   .terceraSeccion__Flex--Izquierda,
