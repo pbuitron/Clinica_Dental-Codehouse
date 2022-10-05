@@ -107,6 +107,19 @@ img {
   background-color: #21334d;
 }
 
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.img-fluid {
+  max-width: 40%;
+}
+
+.texto {
+  text-align: center;
+}
+
 .card {
   background-color: transparent !important;
 }

@@ -2,4 +2,14 @@
 .bg {
     background-color: map-get($Colores-Principales, primary);
   }
-  
+  .logo{
+    display: flex;
+    justify-content: center;
+  }
+  .img-fluid{
+    max-width: 40%;
+
+  }
+  .texto{
+    text-align: center;
+  }
