@@ -124,8 +124,13 @@
 .botonera--botones:hover {
     animation: ani 8s linear infinite;
     border: none;
+    
 }
-
+.botonera--botones>a:hover{
+    color:map-get($Colores-Principales, secondary);
+    scale: 1.2;
+    animation: all 1s ease ;
+}
 @keyframes ani {
     0% {
         background-position: 0%;
@@ -152,6 +157,7 @@
 
 .botonera--botones:hover::before {
     filter: blur(20px);
+    
 }
 
 .botonera--botones:active {
